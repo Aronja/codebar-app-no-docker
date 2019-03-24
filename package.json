@@ -8,7 +8,7 @@
     "react-scripts": "2.1.8"
   },
   "scripts": {
-    "start": "PORT=80 react-scripts start",
+    "start": "react-scripts start",
     "clean": "rm -rf build/",
     "build": "npm run clean && react-scripts build && cp buildspec.yaml build/ && cp package.json build/",
     "test": "CI=true react-scripts test",
