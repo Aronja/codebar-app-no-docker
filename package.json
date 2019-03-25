@@ -10,7 +10,7 @@
   "scripts": {
     "start": "react-scripts start",
     "clean": "rm -rf build/",
-    "build": "npm run clean && react-scripts build && cp buildspec.yaml build/ && cp -r public/ build/ && cp package.json build/",
+    "build": "npm run clean && react-scripts build && cp buildspec.yaml build/ && cp -a public build/ && cp package.json build/",
     "test": "CI=true react-scripts test",
     "eject": "react-scripts eject"
   },
